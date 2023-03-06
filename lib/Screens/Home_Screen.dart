@@ -57,7 +57,7 @@ class _HomeScreenproviderState extends State<HomeScreenprovider> {
                     final currentMovie = movies[index];
                     return Card(
                       key: ValueKey(currentMovie.title),
-                      color: Colors.amberAccent.shade100,
+                      color: Colors.green.shade200,
                       elevation: 4,
                       child: ListTile(
                         title: Text(currentMovie.title),
